@@ -1,0 +1,199 @@
+@font-face {
+    font-family: "TTNormsMedium";
+    src: url("../fonts/TTNorms-Medium.eot");
+    src: url("../fonts/TTNormsMedium.eot?#iefix")format("embedded-opentype"), url("../fonts/TTNorms-Medium.woff") format("woff"), url("../fonts/TTNorms-Medium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "TTNormsBold";
+    src: url("../fonts/TTNorms-Bold.eot");
+    src: url("../fonts/TTNormsBold/TTNormsBold.eot?#iefix")format("embedded-opentype"), url("../fonts/TTNorms-Bold.woff") format("woff"), url("../fonts/TTNorms-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 700;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    display: block;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+body {
+    font-family: 'TTNormsMedium';
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    background: #E5F0FF;
+    *
+}
+
+input {
+    outline: none;
+}
+
+button {
+    border: 0px;
+}
+
+a {
+    color: inherit
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+:root {
+    --color-white: #ffffff;
+    --color-dark: #0D1C2E;
+    --color-orang: #FF9900;
+    --color-grey: #707C97;
+}
+
+.HEAD-container {}
+
+.header-container {
+    max-width: 290px;
+    min-height: 1080px;
+    background: #fff;
+    box-shadow: 14.0351px 0px 25px rgba(86, 128, 248, 0.03), 35.0877px 0px 70px rgba(86, 128, 248, 0.05), 23.8596px 5.61404px 50px rgba(0, 0, 0, 0.02);
+}
+
+.name_foto {
+    margin: 92px 102px 0 102px;
+    width: 86px;
+    height: 86px;
+}
+
+.user_name {
+    display: block;
+    padding: 15px 0 0 43px;
+    line-height: 21px;
+    color: var(--color-dark);
+}
+
+.user_name:after {
+    content: " ";
+    position: absolute;
+    margin: 7px 0 0 11px;
+    padding: 3px;
+    width: 9.5px;
+    height: 5px;
+    background: url(/img/icon/Shape.svg) no-repeat;
+    /* ПОМЕНЯТЬ СТРЕЛКУ*/
+    background-size: contain;
+}
+
+.nav {
+    padding: 86px 0 0px 38px;
+    display: flex;
+    flex-direction: column;
+    line-height: 19px;
+    color: var(--color-grey);
+}
+
+.menu_list {
+    padding-bottom: 56px;
+    font-size: 16px;
+    line-height: 19px
+}
+
+.menu_list__link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.menu_list:nth-child(1) .menu_list__icon {
+    margin-right: 17px;
+    width: 25px;
+    height: 25px;
+    background: url(/img/icon/grid.svg) no-repeat;
+    background-size: contain;
+}
+
+.menu_list:nth-child(2) .menu_list__icon {
+    margin-right: 17px;
+    width: 25px;
+    height: 25px;
+    background: url(/img/icon/Icon\ Chat.svg) no-repeat;
+    background-size: contain;
+}
+
+.menu_list:nth-child(3) .menu_list__icon {
+    margin-right: 17px;
+    width: 25px;
+    height: 25px;
+    background: url(/img/icon/person.svg) no-repeat;
+    background-size: contain;
+}
+
+.menu_list:nth-child(4) .menu_list__icon {
+    margin-right: 17px;
+    width: 25px;
+    height: 25px;
+    background: url(/img/icon/bell.svg) no-repeat;
+    background-size: contain;
+}
+
+.menu_list:nth-child(5) .menu_list__icon {
+    margin-right: 17px;
+    width: 25px;
+    height: 25px;
+    background: url(/img/icon/calendar.svg) no-repeat;
+    background-size: contain;
+}
+
+.menu_list:nth-child(6) .menu_list__icon {
+    margin-right: 17px;
+    width: 25px;
+    height: 25px;
+    background: url(/img/icon/settings-2.svg) no-repeat;
+    background-size: contain;
+}
+
+.menu_list:nth-child(6) {
+    padding-bottom: 265px;
+}
+
+.menu_list:nth-child(7) .menu_list__icon {
+    margin-right: 17px;
+    width: 25px;
+    height: 25px;
+    background: url(/img/icon/power.svg) no-repeat;
+    background-size: contain;
+}
+
+.container {
+    position: absolute;
+    left: 295px;
+    top: 0px;
+    max-width: 1630px;
+    min-height: 1080px;
+    background: linear-gradient(180deg, #F3F3FB 0%, #FDFBFD 100%);
+    float: right;
+}
